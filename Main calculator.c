@@ -10,7 +10,7 @@ int main (){
 		printf("\t!!!Bienvenido!!!");
 		printf("\nIntroduzca su primer valor: ");scanf("%f", &num1);
 		printf("\nIntroduzca su segundo valor: ");scanf("%f", &num2);
-		printf("\nEscriba que operacion desea realizar\nSuma = 1\nResta = 2\nMultiplicacion = 3\nDivision = 4\n-> ");
+		printf("\nEscriba que operacion desea realizar\nSuma = 1 Resta = 2\nMultiplicacion = 3 Division = 4\n-> ");
 		scanf("%d", &operacion);
 		switch(operacion){
 			case 1:
